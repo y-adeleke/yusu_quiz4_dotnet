@@ -4,7 +4,7 @@ trigger:
   - main
 
 pool:
-  name: 'Default'  # Uses your self-hosted agent
+  name: 'Default'
 
 variables:
   buildConfiguration: 'Release'
@@ -13,7 +13,8 @@ steps:
 - task: UseDotNet@2
   inputs:
     packageType: 'sdk'
-    version: '6.x'
+    version: '8.0.x' 
+    installationPath: /usr/local/share/dotnet 
 
 - script: dotnet build --configuration $(buildConfiguration)
   displayName: 'Build the app'
