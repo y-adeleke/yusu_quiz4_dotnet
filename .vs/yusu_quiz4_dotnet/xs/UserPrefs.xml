@@ -5,11 +5,11 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
     <Files>
-      <File FileName="Pages/Index.cshtml" Line="11" Column="7" />
-      <File FileName="Pages/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/_ViewStart.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/Error.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/Index.cshtml.cs" Line="16" Column="6" />
+      <File FileName="Pages/Index.cshtml" Line="11" Column="27" />
+      <File FileName="Pages/_ViewImports.cshtml" />
+      <File FileName="Pages/_ViewStart.cshtml" />
+      <File FileName="Pages/Error.cshtml" />
+      <File FileName="Pages/Index.cshtml.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,7 @@
           <Node name="yusu_quiz4_dotnet" expanded="True">
             <Node name="yusu_quiz4_dotnet" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" expanded="True" selected="True" />
+                <Node name="Index.cshtml" expanded="True" />
               </Node>
             </Node>
           </Node>
