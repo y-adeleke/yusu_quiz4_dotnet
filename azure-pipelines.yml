@@ -1,0 +1,28 @@
+name: yusu_quiz4_ci_dotnet
+
+trigger:
+  - main
+
+pool:
+  name: 'Default'  # Uses your self-hosted agent
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '6.x'
+
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'Build the app'
+
+- script: dotnet publish -c Release -o $(Build.ArtifactStagingDirectory)
+  displayName: 'Publish the app'
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    ArtifactName: 'drop'
+    publishLocation: 'Container'
