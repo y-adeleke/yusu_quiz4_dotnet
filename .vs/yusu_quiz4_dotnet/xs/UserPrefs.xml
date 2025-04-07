@@ -3,13 +3,13 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Index.cshtml.cs">
     <Files>
       <File FileName="Pages/Index.cshtml" Line="11" Column="27" />
       <File FileName="Pages/_ViewImports.cshtml" />
       <File FileName="Pages/_ViewStart.cshtml" />
       <File FileName="Pages/Error.cshtml" />
-      <File FileName="Pages/Index.cshtml.cs" />
+      <File FileName="Pages/Index.cshtml.cs" Line="17" Column="103" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +17,9 @@
           <Node name="yusu_quiz4_dotnet" expanded="True">
             <Node name="yusu_quiz4_dotnet" expanded="True">
               <Node name="Pages" expanded="True">
-                <Node name="Index.cshtml" expanded="True" />
+                <Node name="Index.cshtml" expanded="True">
+                  <Node name="Index.cshtml.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
